@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+hr, .hrcolor {
+    height: 1px;
+    border: 0;
+    color: #666;
+    background-color: #e2dede;
+}
+#Encabezado{
+    color: #333;
+    margin: 15px;
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#titulo{
+    font-weight: lighter;
+    font-style: initial;
+    font-size: 250%;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav li a{
+    font-family: 'Lato', serif;
+   text-decoration: none;
+   color: #000;
+   display:block;
+   padding: 7px 20px;
+}
+.nav li a:hover{
+    color: #ad8603f3;
+}
+.nav li ul li{
+    background-color: white;
+    border: #e2dede 0.5px solid;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover> ul{
+    display: block;
+}
+.nav>li{
+    float: left;
+}
+#PrimerParrafo{
+    font-size: 70%;
+    letter-spacing: 5px;
+    font-weight: normal;
+}
+.imagen{
+    width: 15px;
+    padding: 0px 20px;
+}
+
+#menu{
+    margin: auto;
+    width: 800px;
+    font-family: 'Lato', serif;
+}
+.Contenido h3{
+    font-weight: normal;
+    font-size: 150%;
+}
+#Problema{
+    font-weight: 300%;
+    font-weight: normal;
+}
+.Contenido{
+    float:left;
+    display: inline-block;
+    margin: 80px;
+}
+.Rojo{
+    color: red;
+}
+.Blue{
+    color: blue;
+}
+.Agradecimiento{
+    margin: 15px;
+    float:left;
+    padding: 7px 70px;
+}
+.Buscador{
+    border-radius: 5px;
+    font-size: 30px;
+    border: 1px solid #39c;
+    margin: 2px;
+    background-color:#blue; 
+    
+}
+.Caja {
+font-family: sans-serif;
+font-size: 18px;
+font-weight: 60px;
+display: inline-block;
+color: #ffffff;
+background: #889ccf;
+margin: 0 0 25px;
+overflow: hidden;
+padding: 20px 30px;
+}
